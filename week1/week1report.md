@@ -9,8 +9,7 @@ There will be 3 different icons for Windows, Linux, and Apple repectively.
 
 //Image of icons
 
-Download:
-[link](https://code.visualstudio.com/download)
+Download: [](https://code.visualstudio.com/download)
 
 After completing the download, open the file and finish the setup process.
 Finally, open VSCode!
