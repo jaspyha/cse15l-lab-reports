@@ -16,8 +16,11 @@ Finally, open VSCode!
 //Image of vs code icon
 
 It should look like this!
+
 //Image of open vscode
 
 ## Remotely Connecting
+
+To remotely connect to the account, we will be using Git Bash. We will follow a process similar to downloading Visual Studio Code.
 
 ## Running Commands
