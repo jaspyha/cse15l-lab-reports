@@ -22,5 +22,17 @@ It should look like this!
 ## Remotely Connecting
 
 To remotely connect to the account, we will be using Git Bash. We will follow a process similar to downloading Visual Studio Code.
+The download link is below!
+
+//Image of git
+
+Download: [Git link](https://git-scm.com/downloads)
 
 ## Running Commands
+
+Some of the basic terminal commands:
+```
+Change Directory: cd <path> (Sets the current directory to the specified path)
+
+List: ls (Displays files in current dirctory)
+```
