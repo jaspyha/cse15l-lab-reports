@@ -15,25 +15,30 @@ There will be 3 different icons for Windows, Linux, and Apple repectively.
 Download: [VScode link](https://code.visualstudio.com/download)
 
 After completing the download, open the file and finish the setup process.
-Finally, open VSCode!
-//Image of vs code icon
 
-![It should look like this!](https://cdn.discordapp.com/attachments/1023456934248058934/1064025514727190528/image.png)
+Finally, open VSCode!
+![](https://cdn.discordapp.com/attachments/1023456934248058934/1064025514727190528/image.png)
+
+It should look like this!
 
 ## Remotely Connecting
+![](https://cdn.discordapp.com/attachments/975608841838415872/1064027980541730836/Git-Icon-1788C.png)
 
 To remotely connect to the account, we will be using Git Bash. We will follow a process similar to downloading Visual Studio Code.
 The download link is below!
-
-//Image of git
 
 Download: [Git link](https://git-scm.com/downloads)
 
 ## Running Commands
 
+
+
 Some of the basic terminal commands:
 ```
 Change Directory: cd <path> (Sets the current directory to the specified path)
-
 List: ls (Displays files in current dirctory)
+Copy: cp <path> (Copies the file at specified path to current directory)
+Display Contents: cat <path> (Displays the contents of the file at specified path i.e .txt, .java)
+
+Exit Terminal: exit
 ```
