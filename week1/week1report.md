@@ -5,17 +5,15 @@ A code editor
 
 To begin, click on the link below to visit the VS Code website
 Then, download the file for your operating system. (Mac/Windows/Linux)
-There will be 3 different icons for Windows, Linux, and Apple repectively.
 
-//Image of icons
+There will be 3 different icons for Windows, Linux, and Apple repectively.
+![](https://cdn.discordapp.com/attachments/1023456934248058934/1064022830834012210/image.png)
 
 Download: [VScode link](https://code.visualstudio.com/download)
 
 After completing the download, open the file and finish the setup process.
 Finally, open VSCode!
 //Image of vs code icon
-![](https://cdn.discordapp.com/attachments/1023456934248058934/1064022830834012210/image.png)
-[[https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png|width=100px]]
 
 It should look like this!
 
