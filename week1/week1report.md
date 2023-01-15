@@ -29,6 +29,8 @@ The download link is below!
 
 Download: [Git link](https://git-scm.com/downloads)
 
+After Git is downloaded, open the terminal with ctrl+\`.
+
 ## Running Commands
 
 
@@ -36,8 +38,12 @@ Download: [Git link](https://git-scm.com/downloads)
 Some of the basic terminal commands:
 ```
 Change Directory: cd <path> (Sets the current directory to the specified path)
+
 List: ls (Displays files in current dirctory)
+  -a (displays more details about the files)
+  
 Copy: cp <path> (Copies the file at specified path to current directory)
+
 Display Contents: cat <path> (Displays the contents of the file at specified path i.e .txt, .java)
 
 Exit Terminal: exit
