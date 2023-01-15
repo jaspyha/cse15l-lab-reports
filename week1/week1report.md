@@ -18,8 +18,7 @@ After completing the download, open the file and finish the setup process.
 Finally, open VSCode!
 //Image of vs code icon
 
-![](https://cdn.discordapp.com/attachments/1023456934248058934/1064025514727190528/image.png)
-It should look like this!
+![It should look like this!](https://cdn.discordapp.com/attachments/1023456934248058934/1064025514727190528/image.png)
 
 ## Remotely Connecting
 
