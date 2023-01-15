@@ -1,7 +1,9 @@
 # Week 1 Lab Report
 ## Downloading Visual Studio Code
+
+![](https://cdn.discordapp.com/attachments/1023456934248058934/1064025829731991654/2048px-Visual_Studio_Code_1.png)
 What is VS Code?
-A code editor
+VS Code is a popular code editor
 
 To begin, click on the link below to visit the VS Code website
 Then, download the file for your operating system. (Mac/Windows/Linux)
@@ -15,9 +17,8 @@ After completing the download, open the file and finish the setup process.
 Finally, open VSCode!
 //Image of vs code icon
 
+![](https://cdn.discordapp.com/attachments/1023456934248058934/1064025514727190528/image.png)
 It should look like this!
-
-//Image of open vscode
 
 ## Remotely Connecting
 
