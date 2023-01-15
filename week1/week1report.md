@@ -2,6 +2,7 @@
 ## Downloading Visual Studio Code
 
 ![](https://cdn.discordapp.com/attachments/975608841838415872/1064026680290705408/image.png)
+
 What is VS Code?
 VS Code is a popular code editor
 
