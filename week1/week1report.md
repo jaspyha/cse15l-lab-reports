@@ -1,7 +1,7 @@
 # Week 1 Lab Report
 ## Downloading Visual Studio Code
 
-![](https://cdn.discordapp.com/attachments/1023456934248058934/1064025829731991654/1024px-Visual_Studio_Code_1.png)
+![](https://cdn.discordapp.com/attachments/975608841838415872/1064026680290705408/image.png)
 What is VS Code?
 VS Code is a popular code editor
 
