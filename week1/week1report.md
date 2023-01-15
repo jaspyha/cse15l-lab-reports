@@ -14,6 +14,7 @@ Download: [VScode link](https://code.visualstudio.com/download)
 After completing the download, open the file and finish the setup process.
 Finally, open VSCode!
 //Image of vs code icon
+![](https://cdn.discordapp.com/attachments/1023456934248058934/1064022830834012210/image.png)
 
 It should look like this!
 
