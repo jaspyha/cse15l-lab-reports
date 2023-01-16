@@ -53,7 +53,8 @@ A successful login will display a lot of statistics about the server
 ![](https://cdn.discordapp.com/attachments/975608841838415872/1064632487881482281/image.png)
 
 ## Running Commands
-
+Now that we have established a remote connection, we can run basic commands in the terminal.
+This will allow us to remotely manage files on the computer.
 
 
 Some of the basic terminal commands:
@@ -61,6 +62,7 @@ Some of the basic terminal commands:
 Change Directory: cd <path> (Sets the current directory to the specified path)
 
 List: ls (Displays files in current dirctory)
+![](https://cdn.discordapp.com/attachments/975608841838415872/1064633053714059325/image.png)
   -a (displays more details about the files)
   
 Copy: cp <path> (Copies the file at specified path to current directory)
