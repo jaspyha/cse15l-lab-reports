@@ -49,6 +49,8 @@ The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is XXXX.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
+Then type "yes" into the terminal and press enter.
+
 A successful login will display a lot of statistics about the server
 ![](https://cdn.discordapp.com/attachments/975608841838415872/1064632487881482281/image.png)
 
