@@ -58,13 +58,20 @@ This will allow us to remotely manage files on the computer.
 
 
 Some of the basic terminal commands:
+**Print Working Directory:** *pwd* (Displays the current directory/path you are in)
+![](https://cdn.discordapp.com/attachments/975608841838415872/1064633433629917234/image.png)
 
 **Change Directory:** *cd <path>* (Sets the current directory to the specified path)
 
 **List:** *ls* (Displays files in current dirctory)
 ![](https://cdn.discordapp.com/attachments/975608841838415872/1064633053714059325/image.png)
-  *-a* (displays more details about the files)
   
+ *-a* (displays more details about the files)
+ ![](https://cdn.discordapp.com/attachments/975608841838415872/1064633148421460008/image.png)
+ 
+ *-lat*(displays even more details about the files)
+ ![](https://cdn.discordapp.com/attachments/975608841838415872/1064633281515098122/image.png) 
+ 
 **Copy:** *cp <path>* (Copies the file at specified path to current directory)
 
 **Display Contents:** *cat <path>* (Displays the contents of the file at specified path i.e .txt, .java)
