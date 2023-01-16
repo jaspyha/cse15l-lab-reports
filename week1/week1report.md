@@ -58,16 +58,16 @@ This will allow us to remotely manage files on the computer.
 
 
 Some of the basic terminal commands:
-```
-Change Directory: cd <path> (Sets the current directory to the specified path)
 
-List: ls (Displays files in current dirctory)
+**Change Directory:** *cd <path>* (Sets the current directory to the specified path)
+
+**List:** *ls* (Displays files in current dirctory)
 ![](https://cdn.discordapp.com/attachments/975608841838415872/1064633053714059325/image.png)
-  -a (displays more details about the files)
+  *-a* (displays more details about the files)
   
-Copy: cp <path> (Copies the file at specified path to current directory)
+**Copy:** *cp <path>* (Copies the file at specified path to current directory)
 
-Display Contents: cat <path> (Displays the contents of the file at specified path i.e .txt, .java)
+**Display Contents:** *cat <path>* (Displays the contents of the file at specified path i.e .txt, .java)
 
-Exit Terminal: exit
-```
+**Exit Terminal:** *exit*
+
