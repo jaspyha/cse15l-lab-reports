@@ -9,7 +9,7 @@ VS Code is a popular code editor
 To begin, click on the link below to visit the VS Code website
 Then, download the file for your operating system. (Mac/Windows/Linux)
 
-There will be 3 different icons for Windows, Linux, and Apple repectively.
+There will be 3 different icons for Windows, Linux, and Mac repectively.
 ![](https://cdn.discordapp.com/attachments/1023456934248058934/1064022830834012210/image.png)
 
 Download: [VScode link](https://code.visualstudio.com/download)
