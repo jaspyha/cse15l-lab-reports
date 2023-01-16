@@ -31,8 +31,27 @@ Download: [Git link](https://git-scm.com/downloads)
 
 After Git is downloaded, open the terminal with Ctrl+\`
 From there press Ctrl+Shift+P and adjust the terminal to Git Bash.
-A pop-up will appear at the top of your screen after pressing the keybind and type in "Default Profile".
+A pop-up will appear at the top of your screen after pressing the keybind and type in "Select Default Profile".
 ![](https://cdn.discordapp.com/attachments/975608841838415872/1064394235299774484/image.png)
+
+(If Git Bash does not appear, restart VSCode!)
+
+To connect we will be using SSH (Secure Shell)
+
+We will do this by typing in this in the terminal
+(For the email, remember to replace the "xx" with your account number)
+```
+$ ssh cs15lwi23xx@ieng6.ucsd.edu
+```
+After pressing Enter, it will prompt you for your account password that you set earlier
+```
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is XXXX.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+
+```
+A successful login will display a lot of statistics about the server
+![](https://cdn.discordapp.com/attachments/975608841838415872/1064632487881482281/image.png)
 
 ## Running Commands
 
