@@ -29,7 +29,10 @@ The download link is below!
 
 Download: [Git link](https://git-scm.com/downloads)
 
-After Git is downloaded, open the terminal with ctrl+\`.
+After Git is downloaded, open the terminal with Ctrl+\`
+From there press Ctrl+Shift+P and adjust the terminal to Git Bash.
+A pop-up will appear at the top of your screen after pressing the keybind and type in "Default Profile".
+![](https://cdn.discordapp.com/attachments/975608841838415872/1064394235299774484/image.png)
 
 ## Running Commands
 
