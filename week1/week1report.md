@@ -64,6 +64,7 @@ Some of the basic terminal commands:
 **Change Directory:** *cd <path>* (Sets the current directory to the specified path)
 
 **List:** *ls* (Displays files in current dirctory)
+
 ![](https://cdn.discordapp.com/attachments/975608841838415872/1064633053714059325/image.png)
   
  *-a* (displays more details about the files)
@@ -78,5 +79,7 @@ Some of the basic terminal commands:
 
 **Display Contents:** *cat <path>* (Displays the contents of the file at specified path i.e .txt, .java)
 
+  ![](https://cdn.discordapp.com/attachments/975608841838415872/1064635053889560658/image.png)
+  
 **Exit Terminal:** *exit*
 
