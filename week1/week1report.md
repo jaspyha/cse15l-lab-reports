@@ -67,10 +67,12 @@ Some of the basic terminal commands:
 ![](https://cdn.discordapp.com/attachments/975608841838415872/1064633053714059325/image.png)
   
  *-a* (displays more details about the files)
+  
  ![](https://cdn.discordapp.com/attachments/975608841838415872/1064633148421460008/image.png)
  
  *-lat*(displays even more details about the files)
- ![](https://cdn.discordapp.com/attachments/975608841838415872/1064633281515098122/image.png) 
+ 
+  ![](https://cdn.discordapp.com/attachments/975608841838415872/1064633281515098122/image.png) 
  
 **Copy:** *cp <path>* (Copies the file at specified path to current directory)
 
