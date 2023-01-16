@@ -83,3 +83,5 @@ Some of the basic terminal commands:
   
 **Exit Terminal:** *exit*
 
+##Summary
+  This week, we learned how to install VSCode and Git, while learning basic navigation on a remote connection through ssh commands.
