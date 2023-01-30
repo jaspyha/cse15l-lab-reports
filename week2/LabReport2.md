@@ -88,14 +88,14 @@ import org.junit.*;
 public class ArrayTests {
 	@Test 
 	public void testReverseInPlace() {
-    int[] input1 = {1,2,3,4};
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{4,3,2,1}, input1);
+	    int[] input1 = {1,2,3,4};
+	    ArrayExamples.reverseInPlace(input1);
+	    assertArrayEquals(new int[]{4,3,2,1}, input1);
 	}
 }
 ```
 #### Output
-
+![](https://cdn.discordapp.com/attachments/975608841838415872/1069510030367404073/image.png)
 ---
 ### Non-Failure-inducing input
 ```java
@@ -105,13 +105,14 @@ import org.junit.*;
 public class ArrayTests {
 	@Test 
 	public void testReverseInPlace() {
-    int[] input1 = {10};
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{10}, input1);
+	    int[] input1 = {10};
+	    ArrayExamples.reverseInPlace(input1);
+	    assertArrayEquals(new int[]{10}, input1);
 	}
 }
 ```
 #### Output
+![](https://cdn.discordapp.com/attachments/975608841838415872/1069510341194694716/image.png)
 
 ---
 ### Default Code
