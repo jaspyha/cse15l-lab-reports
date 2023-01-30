@@ -2,7 +2,7 @@
 ## Part 1 (String Server)
 My StringServer Code
 
-'''
+```java
 public String handleRequest(URI url) {
         if (url.getPath().equals("/add-message")) {
             String[] query = url.getQuery().split("=");
@@ -13,5 +13,5 @@ public String handleRequest(URI url) {
             return String.format("No Query Entry.");
         }
         return "404 Not Found!";
-    }
-'''
+}
+```
