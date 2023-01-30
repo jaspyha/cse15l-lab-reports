@@ -46,15 +46,15 @@ Typing "localhost:4000/add-message?s=Hello World!" in for the url triggers the m
 The url we typed in to our browser is the argument we pass to the URI url parameter.
 With the URI, we aquire the path and check if it matches "/add-message", which is the path for adding a string to the output.
 
-Next, we check the first line of the query. In our method, we only add a String to the output if the first String in the query is "s", indicated by "query[0]".
+Next, we check the first line of the query. In our method, we only add a String to the output if the first String in the query is ```"s"```, indicated by ```query[0]```.
 
-Then, we add the String in "query[1]" prepended by "\n" to the instance variable 
+Then, we add the String in ```query[1]``` prepended by ```"\n"``` to the instance variable 
 ```String messageList = "";```.
 
 This instance variable indicates the output String and is first initailized to an empty String.
-After adding "query[1] + \n" with "\n" to start a new line for the next string added, we return messageList to display it.
+After adding ```"query[1] + \n"``` with ```"\n"``` to start a new line for the next string added, we return messageList to display it.
 
-In conclusion, it will output ```messageList```, which is holds the String value of "Hello World!\n".
+In conclusion, it will output ```messageList```, which is holds the String value of ```"Hello World!\n"```.
 
 **Adding  "What a nice day!"**
 
