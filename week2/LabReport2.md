@@ -40,12 +40,14 @@ class StringServer {
 
 ![Hello World!](https://cdn.discordapp.com/attachments/975608841838415872/1069468198539370526/image.png)
 
-Typing "localhost:4000/add-message?s=Hello World!" in for the url triggers the method ```public String handleRequest(URI url)```.
+Typing "localhost:4000/add-message?s=Hello World!" in for the url triggers the method 
+```public String handleRequest(URI url)```.
 
 The url we typed in to our browser is the argument we pass to the URI url parameter.
 With the URI, we aquire the path and check if it matches "/add-message", which is the path for adding a string to the output.
 Next, we check the first line of the query. In our method, we only add a String to the output if the first String in the query is "s", indicated by "query[0]".
-Then, we add the String in "query[1]" prepended by "\n" to the instance variable ```String messageList = "";```
+Then, we add the String in "query[1]" prepended by "\n" to the instance variable 
+```String messageList = "";```.
 This instance variable indicates the output String and is first initailized to an empty String.
 After adding "query[1] + \n" with "\n" to start a new line for the next string added, we return messageList to display it.
 
