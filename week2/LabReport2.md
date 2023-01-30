@@ -36,8 +36,8 @@ class StringServer {
 }
 ```
 
-image[](https://cdn.discordapp.com/attachments/975608841838415872/1069468198539370526/image.png)
-image[](https://cdn.discordapp.com/attachments/975608841838415872/1069468316260905041/image.png)
+![Hello World!](https://cdn.discordapp.com/attachments/975608841838415872/1069468198539370526/image.png)
+![What a nice day!](https://cdn.discordapp.com/attachments/975608841838415872/1069468865786032248/image.png)
 
 # Part 2 (Junit Testing)
 
