@@ -40,7 +40,7 @@ class StringServer {
 
 ![Hello World!](https://cdn.discordapp.com/attachments/975608841838415872/1069468198539370526/image.png)
 
-Typing "localhost:4000/add-message?s=Hello World!" in for the url triggers the method 
+Typing ```localhost:4000/add-message?s=Hello World!``` in for the url triggers the method 
 ```public String handleRequest(URI url)```.
 
 The url we typed in to our browser is the argument we pass to the URI url parameter.
