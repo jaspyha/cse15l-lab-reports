@@ -60,6 +60,21 @@ In conclusion, it will output ```messageList```, which is holds the String value
 
 ![What a nice day!](https://cdn.discordapp.com/attachments/975608841838415872/1069468865786032248/image.png)
 
+For this action, it will be similar to the first, but we did not restart the program, so ```messageList``` still holds the value of ```"Hello World!\n"```.
+
+We will type in the URL ```localhost:4000/add-message?s=What a nice day!``` into our search engine which will be passed as a URI to the method ```public String handleRequest(URI url)```. 
+
+We will check the path to make sure it is ```/add-message``` then check if the first value in the query is ```"s"```.
+After this, we will append ```"What a nice day!" + "\n"``` to ```messageList```, resulting in ```messageList``` holding the value ```"Hello World!\nWhat a nice day!\n"```.
+
+Since we have ```"\n"``` in the String, the values ```"Hello World!"``` and ```"What a nice day!"``` will be on seperate lines.
+
+As a result, when messageList is returned, this will be displayed on the website!
+```
+Hello World!
+What a nice day!
+```
+
 # Part 2 (Junit Testing)
 
 # Part 3 (Summary)
