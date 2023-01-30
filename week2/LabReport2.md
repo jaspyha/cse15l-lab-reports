@@ -94,6 +94,8 @@ public class ArrayTests {
 	}
 }
 ```
+#### Output
+
 ---
 ### Non-Failure-inducing input
 ```java
@@ -109,6 +111,8 @@ public class ArrayTests {
 	}
 }
 ```
+#### Output
+
 ---
 ### Default Code
 ```java
