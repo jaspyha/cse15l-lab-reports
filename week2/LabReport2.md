@@ -1,7 +1,7 @@
 # Lab Report 2
 ## Part 1 (String Server)
-My StringServer Code
 
+**My StringServer Code**
 ```java
 import java.io.IOException;
 import java.net.URI;
@@ -35,3 +35,11 @@ class StringServer {
     }
 }
 ```
+
+image[](https://cdn.discordapp.com/attachments/975608841838415872/1069468198539370526/image.png)
+image[](https://cdn.discordapp.com/attachments/975608841838415872/1069468316260905041/image.png)
+
+# Part 2 (Junit Testing)
+
+# Part 3 (Summary)
+
