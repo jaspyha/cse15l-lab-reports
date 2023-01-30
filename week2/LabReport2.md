@@ -149,5 +149,7 @@ In the original code, the input array is iterated from index[0] to the last inde
 
 #### Solution
 By iterating through only half of the array, we can swap the elements at two indexes during the same loop iteration. This is accomplished by assigning the element at the index to the variable ```int temp``` which allows the replaced element to be assinged to its mirrored index element.
-# Part 3 (Summary)
+# Part 3 (What I Did Not Know!)
+Running a local website is something that I did not know prior to Week 2. That concept is something I felt ecstatic about when I read that it is something I would be learning. I remember thinking of the possibilities I could implement a website into, such as a local website run by a Raspberry Pi to transfer data or commands.
 
+As for Junit, it is something I have already learned from my CSE 12 course, but Junit is something I find trememndously useful and I wish that I could have learned it last quarter when taking CSE 11 for my PAs.
