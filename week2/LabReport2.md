@@ -142,6 +142,12 @@ public class ArrayExamples {
   }
 }
 ```
+---
+### Analysis
+#### Flaw
+In the original code, the input array is iterated from index[0] to the last index. At index i, the element at index i from the end of the array is assigned as the element of index i in the array. This, however, proves problematic as it keeps the elements at indices of the second half of the array unchanged. For example, {1,2,3,4} would output {4,3,3,4} as 3 and  4 will be assigned to indexes 2 and 3, respectively. This results in their values being unchanged.
 
+#### Solution
+By iterating through only half of the array, we can swap the elements at two indexes during the same loop iteration. This is accomplished by assigning the element at the index to the variable ```int temp``` which allows the replaced element to be assinged to its mirrored index element.
 # Part 3 (Summary)
 
