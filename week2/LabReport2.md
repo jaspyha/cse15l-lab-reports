@@ -36,9 +36,13 @@ class StringServer {
 }
 ```
 **Adding "Hello World!"**
+
 ![Hello World!](https://cdn.discordapp.com/attachments/975608841838415872/1069468198539370526/image.png)
 
+---
+
 **Adding  "What a nice day!"**
+
 ![What a nice day!](https://cdn.discordapp.com/attachments/975608841838415872/1069468865786032248/image.png)
 
 # Part 2 (Junit Testing)
