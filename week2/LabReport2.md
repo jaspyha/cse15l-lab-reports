@@ -1,7 +1,7 @@
 # Lab Report 2
 ## Part 1 (String Server)
 
-**My StringServer Code**
+### My StringServer Code
 ```java
 import java.io.IOException;
 import java.net.URI;
@@ -35,11 +35,12 @@ class StringServer {
     }
 }
 ```
+---
 **Adding "Hello World!"**
 
 ![Hello World!](https://cdn.discordapp.com/attachments/975608841838415872/1069468198539370526/image.png)
 
----
+
 
 **Adding  "What a nice day!"**
 
