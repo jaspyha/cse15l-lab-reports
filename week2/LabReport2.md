@@ -1,7 +1,8 @@
 # Lab Report 2
 ## Part 1 (String Server)
 My StringServer Code
-'''java
+
+'''
 public String handleRequest(URI url) {
         if (url.getPath().equals("/add-message")) {
             String[] query = url.getQuery().split("=");
