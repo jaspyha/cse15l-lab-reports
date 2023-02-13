@@ -3,7 +3,7 @@
 ## Bash Grep Command
 ---
 ### The '-i' Option
-#### Example 1
+#### *Example 1*
 
 #### Example 2
 
