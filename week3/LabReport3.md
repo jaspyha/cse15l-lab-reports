@@ -10,6 +10,9 @@ grep -i -r "bahama" ./written_2
 ```
 
 Output:
+```
+
+```
 
 #### *Example 2*
 Input:
@@ -18,6 +21,9 @@ grep -i "the" .txt
 ```
 
 Output:
+```
+
+```
 
 ---
 ### The '-w' Option
