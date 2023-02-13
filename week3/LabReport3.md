@@ -4,8 +4,14 @@
 ---
 ### The '-i' Option
 #### *Example 1*
+```
+grep -i -r "bahama" ./written_2
+```
 
 #### *Example 2*
+```
+grep -i "the" .txt
+```
 
 ---
 ### The '-w' Option
