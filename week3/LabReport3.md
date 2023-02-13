@@ -5,25 +5,25 @@
 ### The '-i' Option
 #### *Example 1*
 
-#### Example 2
+#### *Example 2*
 
 ---
 ### The '-w' Option
-#### Example 1
+#### *Example 1*
 
-#### Example 2
+#### *Example 2*
 
 ---
 ### The '-A n' Option
-#### Example 1
+#### *Example 1*
 
-#### Example 2
+#### *Example 2*
 
 ---
 ### The '-o' Option
-#### Example 1
+#### *Example 1*
 
-#### Example 2
+#### *Example 2*
 
 ---
 ## Sources
