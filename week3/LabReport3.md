@@ -1,7 +1,7 @@
 # Lab Report 3
 
 ## Bash Grep Command
-
+---
 ### The '-i' Option
 #### Example 1
 
