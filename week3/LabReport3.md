@@ -1,6 +1,6 @@
 # Lab Report 3
 
-## Bash Grep Command
+## Bash Grep Command Options
 ---
 ### The '-i' Option
 #### *Example 1*
