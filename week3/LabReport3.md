@@ -101,12 +101,16 @@ Input:
 ```
 grep -A 0 "Liquor" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 ```
+The '-A n' option seems to take in a number for 'n'. It also seems like two sentences are returned. The second sentence does not seem to contain "Liquor".
+
 Output:
 ```
 Liquor money bought Nassau better houses, churches, lighting, water, roads, sewers, docks, and hotels. The city’s first gambling casino opened in 1920; the first daily air service from Miami began in 1929; the yacht set decided Nassau was fashionable, and many wealthy Americans as well as Prohibition millionaires built homes on the islands.
 ```
+The '-A n' option seems to take in a number for 'n'. It also seems like only one sentence is returned in comparision to two in Example 1.
 
 **Summary**
+The '-A n' option takes in a parameter n that is a number. It indicates the number of lines after the line where the pattern occurs to include in the output as well. In default grep, only the line where the pattern occurs is returned. This is useful when searching through scholarly articles and context is useful.
 
 ---
 ### The '-o' Option
@@ -119,6 +123,7 @@ Output:
 ```
 Liquor
 ```
+The command seems to only return the pattern, however Liquor only occurs once in the text file.
 
 #### *Example 2*
 Input:
@@ -131,7 +136,12 @@ Columbus
 Columbus
 Columbus
 ```
+This time, the command returns the pattern 3 times, which also matches with the number of times Columbus occurs in the text file.
+
+
+**Summary**
+The '-o' option returns only the instances it finds in the specified file. Wihtout the option, grep returns the entire line that contains the pattern. With '-o', it is easier to count the number of times a pattern occurs in a file.
 
 ---
-## Sources
+## Sources For All Grep Options
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
