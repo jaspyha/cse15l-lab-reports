@@ -15,6 +15,8 @@ Centuries before the arrival of Columbus, a peaceful Amerindian people who calle
 Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
 ```
 
+In our input, "coLumBus" is clearly not in the text file, however "Columbus" is! This tells us a bit about the '-i' option where the capitalization seems to be ignored.
+
 #### *Example 2*
 Input:
 ```
@@ -42,6 +44,8 @@ Output:
 ```
 
 The blank means that the file did not contain the pattern!
+
+**Summary**
 
 This means that the '-i' option removes the case-sensitive aspect of pattern matching with default grep!
 
