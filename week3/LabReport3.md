@@ -81,6 +81,7 @@ This output is the exact same as Example 1 for the '-i' option.
 This means that it successfully found the lines containing "Columbus".
 
 **Summary**
+
 The '-w' option is used to indicate the pattern as a word. It ensures that there are spaces before and after the pattern. That is why in Example 1 "Columbus" could not be found as "Colum" is a fragment of the word. This option is useful when we are attempting to find words that are contained in other words, such as finding all "at" in a text file. With the default option, "cat" and "bat" would be included as a match.
 
 ---
@@ -110,6 +111,7 @@ Liquor money bought Nassau better houses, churches, lighting, water, roads, sewe
 The '-A n' option seems to take in a number for 'n'. It also seems like only one sentence is returned in comparision to two in Example 1.
 
 **Summary**
+
 The '-A n' option takes in a parameter n that is a number. It indicates the number of lines after the line where the pattern occurs to include in the output as well. In default grep, only the line where the pattern occurs is returned. This is useful when searching through scholarly articles and context is useful.
 
 ---
@@ -140,6 +142,7 @@ This time, the command returns the pattern 3 times, which also matches with the 
 
 
 **Summary**
+
 The '-o' option returns only the instances it finds in the specified file. Wihtout the option, grep returns the entire line that contains the pattern. With '-o', it is easier to count the number of times a pattern occurs in a file.
 
 ---
