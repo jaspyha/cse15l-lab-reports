@@ -42,8 +42,8 @@ Output:
 ```
 
 The blank means that the file did not contain the pattern!
-
 This means that the '-i' option removes the case-sensitive aspect of pattern matching with default grep!
+
 ---
 ### The '-w' Option
 #### *Example 1*
