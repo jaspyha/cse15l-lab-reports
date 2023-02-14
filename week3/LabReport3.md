@@ -47,72 +47,89 @@ The blank means that the file did not contain the pattern!
 
 **Summary**
 
-This means that the '-i' option removes the case-sensitive aspect of pattern matching with default grep!
+This means that the '-i' option removes the case-sensitive aspect of pattern matching with default grep! 
+
+This is useful for when we want to locate lines/files matching a pattern where capitalizations prevent the defauilt grep to be used.
 
 ---
 ### The '-w' Option
 #### *Example 1*
 Input:
 ```
-
+grep -w "Colum" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 ```
 Output:
 ```
 
 ```
+The output is blank, so there is clearly something wrong as in the previous example with '-i' "Columbus" is in the file.
+
+Let's try "Columbus" this time and see the result.
 
 #### *Example 2*
 Input:
 ```
-
+grep -w "Columbus" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 ```
 Output:
 ```
-
+Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal 
+Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
 ```
+
+This output is the exact same as Example 1 for the '-i' option.
+This means that it successfully found the lines containing "Columbus".
+
+**Summary**
+The '-w' option is used to indicate the pattern as a word. It ensures that there are spaces before and after the pattern. That is why in Example 1 "Columbus" could not be found as "Colum" is a fragment of the word. This option is useful when we are attempting to find words that are contained in other words, such as finding all "at" in a text file. With the default option, "cat" and "bat" would be included as a match.
 
 ---
 ### The '-A n' Option
 #### *Example 1*
 Input:
 ```
-
+grep -A 1 "Liquor" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 ```
 Output:
 ```
-
+Liquor money bought Nassau better houses, churches, lighting, water, roads, sewers, docks, and hotels. The city’s first gambling casino opened in 1920; the first daily air service from Miami began in 1929; the yacht set decided Nassau was fashionable, and many wealthy Americans as well as Prohibition millionaires built homes on the islands.
+When the boom suddenly came to an end with the worldwide depression and the repeal of Prohibition in 1933, unemployment rose again, despite the first significant tourism the Bahamas had known.
 ```
 
 #### *Example 2*
 Input:
 ```
-
+grep -A 0 "Liquor" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 ```
 Output:
 ```
-
+Liquor money bought Nassau better houses, churches, lighting, water, roads, sewers, docks, and hotels. The city’s first gambling casino opened in 1920; the first daily air service from Miami began in 1929; the yacht set decided Nassau was fashionable, and many wealthy Americans as well as Prohibition millionaires built homes on the islands.
 ```
+
+**Summary**
 
 ---
 ### The '-o' Option
 #### *Example 1*
 Input:
 ```
-
+grep -o "Liquor" ./written_2/travel_guides/berlitz2/Bahamas-History.txt                                                    
 ```
 Output:
 ```
-
+Liquor
 ```
 
 #### *Example 2*
 Input:
 ```
-
+grep -o "Columbus" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 ```
 Output:
 ```
-
+Columbus
+Columbus
+Columbus
 ```
 
 ---
