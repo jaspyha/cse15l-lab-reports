@@ -106,8 +106,10 @@ grep -A 1 "Liquor" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 Output:
 ```
 Liquor money bought Nassau better houses, churches, lighting, water, roads, sewers, docks, and hotels. 
-The city’s first gambling casino opened in 1920; the first daily air service from Miami began in 1929; the yacht set decided Nassau was fashionable, and many wealthy Americans as well as Prohibition millionaires built homes on the islands.
-When the boom suddenly came to an end with the worldwide depression and the repeal of Prohibition in 1933, unemployment rose again, despite the first significant tourism the Bahamas had known.
+The city’s first gambling casino opened in 1920; the first daily air service from Miami began in 1929; the yacht set decided 
+Nassau was fashionable, and many wealthy Americans as well as Prohibition millionaires built homes on the islands.
+When the boom suddenly came to an end with the worldwide depression and the repeal of Prohibition in 1933, unemployment rose 
+again, despite the first significant tourism the Bahamas had known.
 ```
 
 #### *Example 2*
@@ -120,7 +122,8 @@ The '-A n' option seems to take in a number for 'n'. It also seems like two sent
 Output:
 ```
 Liquor money bought Nassau better houses, churches, lighting, water, roads, sewers, docks, and hotels. 
-The city’s first gambling casino opened in 1920; the first daily air service from Miami began in 1929; the yacht set decided Nassau was fashionable, and many wealthy Americans as well as Prohibition millionaires built homes on the islands.
+The city’s first gambling casino opened in 1920; the first daily air service from Miami began in 1929; the yacht set decided 
+Nassau was fashionable, and many wealthy Americans as well as Prohibition millionaires built homes on the islands.
 ```
 The '-A n' option seems to take in a number for 'n'. It also seems like only one sentence is returned in comparision to two in Example 1.
 
