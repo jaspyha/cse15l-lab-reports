@@ -11,7 +11,10 @@ grep -i "coLumBuS" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 
 Output:
 ```
-Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal 
+Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. 
+Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. 
+Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. 
+Columbus claimed the island and others in the Bahamas for his royal 
 Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
 ```
 
@@ -73,7 +76,10 @@ grep -w "Columbus" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 ```
 Output:
 ```
-Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal 
+Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. 
+Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. 
+Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. 
+Columbus claimed the island and others in the Bahamas for his royal 
 Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
 ```
 
@@ -93,7 +99,8 @@ grep -A 1 "Liquor" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 ```
 Output:
 ```
-Liquor money bought Nassau better houses, churches, lighting, water, roads, sewers, docks, and hotels. The city’s first gambling casino opened in 1920; the first daily air service from Miami began in 1929; the yacht set decided Nassau was fashionable, and many wealthy Americans as well as Prohibition millionaires built homes on the islands.
+Liquor money bought Nassau better houses, churches, lighting, water, roads, sewers, docks, and hotels. 
+The city’s first gambling casino opened in 1920; the first daily air service from Miami began in 1929; the yacht set decided Nassau was fashionable, and many wealthy Americans as well as Prohibition millionaires built homes on the islands.
 When the boom suddenly came to an end with the worldwide depression and the repeal of Prohibition in 1933, unemployment rose again, despite the first significant tourism the Bahamas had known.
 ```
 
@@ -106,7 +113,8 @@ The '-A n' option seems to take in a number for 'n'. It also seems like two sent
 
 Output:
 ```
-Liquor money bought Nassau better houses, churches, lighting, water, roads, sewers, docks, and hotels. The city’s first gambling casino opened in 1920; the first daily air service from Miami began in 1929; the yacht set decided Nassau was fashionable, and many wealthy Americans as well as Prohibition millionaires built homes on the islands.
+Liquor money bought Nassau better houses, churches, lighting, water, roads, sewers, docks, and hotels. 
+The city’s first gambling casino opened in 1920; the first daily air service from Miami began in 1929; the yacht set decided Nassau was fashionable, and many wealthy Americans as well as Prohibition millionaires built homes on the islands.
 ```
 The '-A n' option seems to take in a number for 'n'. It also seems like only one sentence is returned in comparision to two in Example 1.
 
