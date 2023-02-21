@@ -11,11 +11,14 @@ grep -i "coLumBuS" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 
 Output:
 ```
-Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. 
-Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. 
-Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. 
-Columbus claimed the island and others in the Bahamas for his royal 
-Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
+Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the 
+Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest 
+crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them 
+for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. 
+Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as 
+the Lucayans. Columbus claimed the island and others in the Bahamas for his royal 
+Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing 
+towards Cuba.
 ```
 
 In our input, "coLumBus" is clearly not in the text file, however "Columbus" is! This tells us a bit about the '-i' option where the capitalization seems to be ignored.
@@ -76,11 +79,14 @@ grep -w "Columbus" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 ```
 Output:
 ```
-Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. 
-Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. 
-Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. 
-Columbus claimed the island and others in the Bahamas for his royal 
-Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
+Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the 
+Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest 
+crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them 
+for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. 
+Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as 
+the Lucayans. Columbus claimed the island and others in the Bahamas for his royal 
+Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing 
+towards Cuba.
 ```
 
 This output is the exact same as Example 1 for the '-i' option.
