@@ -21,6 +21,7 @@ ssh <Ctrl-V> <Enter>
 ```
 
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078458946681045085/image.png)
+
 ## Clone your fork of the repository from your Github account
 ---
 Copy SSH from github repository
@@ -79,6 +80,7 @@ nano ListExamples.java <Enter>
 ```
 
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078463109334827039/image.png)
+
 ## Run the tests, demonstrating that they now succeed
 ---
 ```
@@ -86,6 +88,7 @@ nano ListExamples.java <Enter>
 ```
 
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078463576223776840/image.png)
+
 ```
 <up>x3 <enter>
 ```
