@@ -71,17 +71,24 @@ nano ListExamples.java <Enter>
 ```
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078462458466926723/image.png)
 
-down 14, right 22, backspace 3
-down 28, left 6, backspace 1, 2
-Ctrl-o enter
-ctrl-x
+```
+<Down>x14 <Right>x22 <Backspace>x3
+<Down>x28 <Left>x6 <Backspace> 2
+<Ctrl-O> <Enter>
+<Ctrl-X>
+```
 
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078463109334827039/image.png)
 ## Run the tests, demonstrating that they now succeed
 ---
-up 3 <Enter>
+```
+<up>x3 <Enter>
+```
+
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078463576223776840/image.png)
-up 3 <enter>
+```
+<up>x3 <enter>
+```
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078463458766503976/image.png)
 
 
@@ -94,5 +101,7 @@ git push <Enter>
 ```
 
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078471931994570873/image.png)
+  
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078472063951589386/image.png)
+  
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078472127465918504/image.png)
