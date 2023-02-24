@@ -85,10 +85,9 @@ up 3 <enter>
 ## Commit and push the resulting change to your Github account
 ---
 ```
-    git add ListExamples.java <Enter>
-    git commit -m "Updated" <Enter>
-    git push <Enter>
-    ```
+git add ListExamples.java <Enter>
+git commit -m "Updated" <Enter>
+git push <Enter>
     
     ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078471931994570873/image.png)
     ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078472063951589386/image.png)
