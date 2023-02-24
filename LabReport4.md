@@ -82,9 +82,10 @@ up 3 <Enter>
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078463576223776840/image.png)
 up 3 <enter>
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1078463458766503976/image.png)
+
+
 ## Commit and push the resulting change to your Github account
 ---
-```
 git add ListExamples.java <Enter>
 git commit -m "Updated" <Enter>
 git push <Enter>
