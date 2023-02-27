@@ -1,17 +1,5 @@
 # Lab Report 4
 ---
-## Setup Delete any existing forks of the repository you have on your account
----
-We will navigate to the home directory, navigated by typing ```cd ~ <Enter>``` 
-Then, we will remove the previously cloned repository under the directory "lab7".
-We will remove the directory with ```rm -rf lab7```
-This will recursively delete all files in the directory and then delete the directory.
-
-## Setup Fork the repository
----
-Go to the [link](https://github.com/ucsd-cse15l-w23/lab7) and fork the repository in the top right!
-![](https://cdn.discordapp.com/attachments/1078458930356834344/1079601047707857007/image.png)
-
 ## Log into ieng6
 ---
 Copy email from notepad with <Ctrl-C>
