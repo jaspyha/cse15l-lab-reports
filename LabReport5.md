@@ -68,16 +68,12 @@ A possible use case for this may be to reduce excess information, such as line n
 #### *Example 1*
 Input:
 ```
-grep -A 1 "Liquor" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
+less -p bishop Algarve-History.txt
 ```
 Output:
-```
-Liquor money bought Nassau better houses, churches, lighting, water, roads, sewers, docks, and hotels. 
-The city’s first gambling casino opened in 1920; the first daily air service from Miami began in 1929; the yacht set decided 
-Nassau was fashionable, and many wealthy Americans as well as Prohibition millionaires built homes on the islands.
-When the boom suddenly came to an end with the worldwide depression and the repeal of Prohibition in 1933, unemployment rose 
-again, despite the first significant tourism the Bahamas had known.
-```
+![](https://cdn.discordapp.com/attachments/1078458930356834344/1084908395326361640/image.png)
+
+The '-p' option seems to take in a pattern, which we inputed as "bishop" and the pattern is highlighted when we ran the command. The first line shown is also jumped to the first occurence of this pattern.
 
 #### *Example 2*
 Input:
@@ -92,38 +88,70 @@ The '-p' option seems to take in a pattern, which we inputed as "Porto" and less
 
 **Summary**
 
-The '-A n' option takes in a parameter n that is a number. It indicates the number of lines after the line where the pattern occurs to include in the output as well. In default grep, only the line where the pattern occurs is returned. This is useful when searching through scholarly articles and context is useful.
+The '-p' option for less allows for searching a file for a pattern. The first occurence of the pattern is highlighted and jumped to.
+This option can be highly usefui when searching a large file for a specific section without manually searching and scrolling.
 
 ---
 ### The '-s' Option
+For reference, this is the contents of the original and modified ```Sample.txt``` file.
+
+Original:
+```
+Hello World!
+This
+Is
+A
+Test
+File!
+```
+Modified:
+```
+Hello World!
+
+
+
+This
+
+
+Is
+
+A
+
+Test
+
+
+
+
+
+File!
+```
+
 #### *Example 1*
 Input:
 ```
-grep -o "Liquor" ./written_2/travel_guides/berlitz2/Bahamas-History.txt                                                    
+less -s Sample.txt                                                   
 ```
 Output:
-```
-Liquor
-```
-The command seems to only return the pattern, however Liquor only occurs once in the text file.
+![](https://cdn.discordapp.com/attachments/1078458930356834344/1084909890100789289/image.png)
+
+There does not seem to be anything special about the output compared to normal less.
 
 #### *Example 2*
+Let us try this again on Sample.txt, but with a few modifications.
+
 Input:
 ```
-grep -o "Columbus" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
+less -s Sample.txt   
 ```
 Output:
-```
-Columbus
-Columbus
-Columbus
-```
-This time, the command returns the pattern 3 times, which also matches with the number of times Columbus occurs in the text file.
+![](https://cdn.discordapp.com/attachments/1078458930356834344/1084911042993336330/image.png)
 
+This time, the extra blank lines we added seem to only show as one, despite having more than one.
 
 **Summary**
 
-The '-o' option returns only the instances it finds in the specified file. Wihtout the option, grep returns the entire line that contains the pattern. With '-o', it is easier to count the number of times a pattern occurs in a file.
+The '-s' file scans the file for 2 or more blank lines in the file. If there are, it will replace theses blank line chunks with a single blank line.
+A use for this option is to increase readability when a file may contain many blank lines consecutively.
 
 ---
 ## Sources For All Grep Options
