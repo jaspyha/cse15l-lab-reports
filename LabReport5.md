@@ -10,6 +10,7 @@ less -E Algarve-History.txt
 ```
 
 Output:
+
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1084901179907129344/image.png)
 
 In our input, we included the '-E' option. When running the command, the output resembles the normal 'less' command, however when we scroll to 
@@ -22,6 +23,7 @@ less -E Algarve-Intro.txt
 ```
 
 Output:
+
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1084901803214250024/image.png)
 
 Trying the '-E' option on a different text file, we see the same output, where less automatically exists when we reach the end of the text file!
@@ -54,6 +56,7 @@ Input:
 less -n Algarve-Intro.txt
 ```
 Output:
+
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1084906391531175986/image.png)
 
 As expected, the behavior resembles our expectations. There is a lack of line numbers on the left-side of the screen and the rest of the interface is acting as normal.
@@ -71,6 +74,7 @@ Input:
 less -p bishop Algarve-History.txt
 ```
 Output:
+
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1084908395326361640/image.png)
 
 The '-p' option seems to take in a pattern, which we inputed as "bishop" and the pattern is highlighted when we ran the command. The first line shown is also jumped to the first occurence of this pattern.
@@ -82,6 +86,7 @@ less -p Porto Algarve-Intro.txt
 ```
 
 Output:
+
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1084907416862326874/image.png)
 
 The '-p' option seems to take in a pattern, which we inputed as "Porto" and less began at the first line occurence of the pattern in the file.
@@ -132,6 +137,7 @@ Input:
 less -s Sample.txt                                                   
 ```
 Output:
+
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1084909890100789289/image.png)
 
 There does not seem to be anything special about the output compared to normal less.
@@ -144,6 +150,7 @@ Input:
 less -s Sample.txt   
 ```
 Output:
+
 ![](https://cdn.discordapp.com/attachments/1078458930356834344/1084911042993336330/image.png)
 
 This time, the extra blank lines we added seem to only show as one, despite having more than one.
