@@ -154,5 +154,5 @@ The '-s' file scans the file for 2 or more blank lines in the file. If there are
 A use for this option is to increase readability when a file may contain many blank lines consecutively.
 
 ---
-## Sources For All Grep Options
+## Sources For All Less Options
 https://www.geeksforgeeks.org/less-command-linux-examples/
